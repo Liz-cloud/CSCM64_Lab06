@@ -2,8 +2,9 @@
 ## Software Testing
 
 ## Exercise 1
+## Exercise 1
 
-A subset $C \subseteq \mathbb{R}^2$ of the Euclidean plane is called convex if for all points $p, q \in C$ the line segment joining $p$ and $q$ is contained in $C$. In coordinates, this means that we have $&alpha p + (1-&alpha)q \in C$ for all $&alpha \in [0,1]$ and all $p, q \in C$.
+A subset $C \subseteq \mathbb{R}^2$ of the Euclidean plane is called convex if for all points $p, q \in C$ the line segment joining $p$ and $q$ is contained in $C$. In coordinates, this means that we have $&alpha;p + (1-&alpha;)q \in C$ for all $&alpha; \in [0,1]$ and all $p, q \in C$.
 
 For every subset $S \subseteq \mathbb{R}^2$ of the Euclidean plane, there exists a smallest convex set containing $S$. This set is called the convex hull of $S$.
 
@@ -17,6 +18,7 @@ Consider the computational problem Convex Hull, specified below:
 For example, on input $(0,0),(1,1),(0,1),(1,0),(0.5,0.5)$, the sequences $(0,3,1,2)$ and $(1,3,0,2)$ are valid outputs. For the same input, the sequences $(0,1,3,2)$ and $(0,4,3)$ are examples of invalid outputs.
 
 The Java class `GiftWrap` in the Code for this lab implements Jarvis’s wrapping algorithm to solve the Convex Hull problem.
+
 
 **Tasks.**
 1. Suggest two or three different partitions of the domain of valid inputs that are suitable for
