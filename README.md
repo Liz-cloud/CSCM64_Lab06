@@ -26,8 +26,8 @@ testing an implementation of the Convex Hull problem.
 2. Derive test inputs for the problem based on your partitions using SimultaneousWeak Equivalence
 Testing.
 3. Describe a method for computing for a given input all valid outputs to the Convex Hull problem from one given valid output.
-Use this to correctly implement the method `defineEqualConvexHulls` in the Java code. The method should take two lists of integers $L1=\{i_1, ..., i_m\}$ and $L2=\{j_1, ..., j_m\}$, and a list
-of points $P=\{p_0, ..., p_{n-1}\}$, and decide whether the polygons defined by $\{p_{i_1}, ..., p_{i_m}}\$ and $\{p_{j_1}, ..., p_{j_k}}\$.
+Use this to correctly implement the method `defineEqualConvexHulls` in the Java code. The method should take two lists of integers $L1=(\{i_1, ..., i_m\})$ and $L2=(\{j_1, ..., j_m\})$, and a list
+of points $P=(\{p_0, ..., p_{n-1}\})$, and decide whether the polygons defined by $\({p_{i_1}, ..., p_{i_m}}\)$ and $(\{p_{j_1}, ..., p_{j_k}}\)$.
 
 
 5. Implement your test suite using JUnit to test the implementation of Convex Hull provided in the Java code.
