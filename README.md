@@ -3,7 +3,7 @@
 
 ## Exercise 1
 
-A subset $C \subseteq \mathbb{R}^2$ of the Euclidean plane is called convex if for all points $p, q \in C$ the line segment joining $p$ and $q$ is contained in $C$. In coordinates, this means that we have $rp + (1-r)q \in C$ for all $r \in [0,1]$ and all $p, q \in C$.
+A subset $C \subseteq \mathbb{R}^2$ of the Euclidean plane is called convex if for all points $p, q \in C$ the line segment joining $p$ and $q$ is contained in $C$. In coordinates, this means that we have $&alpha p + (1-&alpha)q \in C$ for all $&alpha \in [0,1]$ and all $p, q \in C$.
 
 For every subset $S \subseteq \mathbb{R}^2$ of the Euclidean plane, there exists a smallest convex set containing $S$. This set is called the convex hull of $S$.
 
@@ -26,4 +26,5 @@ Testing.
 3. Describe a method for computing for a given input all valid outputs to the Convex Hull problem from one given valid output.
 Use this to correctly implement the method defineEqualConvexHulls in the Java code.
 The method should take two lists of integers L1 Æ hi1,..., imi L2 Æ h j1,..., jki and a list of points `P Æ hp0,..., pn¡1i` and decide whether the polygons defined by `hpi1 ,..., pim` i and `hpj1 ,..., pjk` i are equal.
-4. Implement your test suite using JUnit to test the implementation of Convex Hull provided in the Java code.
+
+5. Implement your test suite using JUnit to test the implementation of Convex Hull provided in the Java code.
